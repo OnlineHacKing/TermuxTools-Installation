@@ -74,7 +74,11 @@ rm -fr $PREFIX/lib/ruby/gems
 pkg upgrade -y -o Dpkg::Options::="--force-confnew"
 
 # needs binutils
+echo
+center "*** needs binutils installation..."
+
 pkg install -y binutils python autoconf bison clang coreutils curl findutils apr apr-util postgresql openssl readline libffi libgmp libpcap libsqlite libgrpc libtool libxml2 libxslt ncurses make ncurses-utils ncurses git wget unzip zip tar termux-tools termux-elf-cleaner pkg-config git ruby -o Dpkg::Options::="--force-confnew"
+pkg install -y curl wget libyaml bison espeak nodejs 
 
 python3 -m pip install --upgrade pip
 python3 -m pip install requests
@@ -139,6 +143,6 @@ sed -i '442, 476 {s/^/#/};436, 438 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/lo
 
 echo
 center "*"
-echo -e "\033[32m Setup complete Installation Now. \n: https://termux.xyz/how-to-install-beef-on-termux/\033[0m"
+echo -e "\033[32m Setup complete Installation Now. \n\e[93m: https://termux.xyz/how-to-install-beef-on-termux/\033[0m"
 termux-open-url https://termux.xyz/how-to-install-beef-on-termux/
 center "*"
