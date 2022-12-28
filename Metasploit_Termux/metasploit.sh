@@ -24,9 +24,10 @@ echo -e "\e[32m
  \e[91m        +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ \e[0m 
          |O|n|l|i|n|e| |H|a|c|k|i|n|g|
    \e[34m      +-+-+-+-+-+-+ +-+-+-+-+-+-+-+  \e[0m
-     \e[92m             +-+-+-+-+-+   \e[0m 
-                  |S|U|M|A|N|
-\e[93m	          +-+-+-+-+-+ \e[0m
+               \e[92m             +-+-+-+-+-+   \e[0m 
+                            |S|U|M|A|N|
+\e[93m	                    +-+-+-+-+-+ \e[0m
+
 
 \e[91m Website\e[0m   -  \e[96m www.termux.xyz \e[0m
 \e[32m Telegram\e[0m  -  \e[95m https://telegram.dog/OnlineHacking \e[0m
