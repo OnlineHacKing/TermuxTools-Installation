@@ -150,7 +150,6 @@ sed -i '442, 476 {s/^/#/};436, 438 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/lo
 #sed -i '14 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp384.rb
 #sed -i '14 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp521.rb
 
-echo
 
 clear
 echo -e '\e[92m
@@ -170,20 +169,19 @@ SUMAN ©\e[34m
     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝   
 ONLINE HACKING			  							  							  
           \e[m'
-echo -e " \e[36mWebsite : \e[0m\e[92mwww.termux.xyz  \e[93m/  \e[92mwww.onlinehacking.org  "
+echo -e ' \e[36mWebsite : \e[0m\e[92mwww.termux.xyz  \e[93m/  \e[92mwww.onlinehacking.org  '
 echo ""
-echo -e " \e[31mGitHub : \e[0m\e[93mhttps://github.com/OnlineHacKing  "
+echo -e ' \e[31mGitHub : \e[0m\e[93mhttps://github.com/OnlineHacKing  '
 echo ""
-echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing  "
+echo -e ' \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing  '
 echo ""
-echo -e "\e[96m=======================\e[92m   SUMAN © 2022 FF  \e[96m=======================\e[92m"
+echo -e '\e[96m=======================\e[92m   SUMAN © 2022 FF  \e[96m=======================\e[92m'
 echo -e " "
 echo -e " "
 center "*"
-echo -e "\033[32m Setup complete Installation Now. \n\e[93m: https://termux.xyz/how-to-install-beef-on-termux/\033[0m"
+echo -e '\033[32m Setup complete Installation Now. \n\e[93m: https://termux.xyz/how-to-install-beef-on-termux/\033[0m'
 termux-open-url https://termux.xyz/how-to-install-beef-on-termux/
 echo -e " "
 echo -e " "
-echo -e "\e[96m=======================\e[92m   SUMAN © 2022 FF  \e[96m=======================\e[92m"
+echo -e '\e[96m=======================\e[92m   SUMAN © 2022 FF  \e[96m=======================\e[92m'
 echo -e " "
-center "*"
