@@ -83,19 +83,6 @@ pkg upgrade -y -o Dpkg::Options::="--force-confnew"
 
 # needs binutils
 echo
-
-clear
-echo -e "\e[32m
-    ██████╗ ███████╗███████╗███████╗
-    ██╔══██╗██╔════╝██╔════╝██╔════╝
-    ██████╔╝█████╗  █████╗  █████╗  
-    ██╔══██╗██╔══╝  ██╔══╝  ██╔══╝  
-    ██████╔╝███████╗███████╗██║     
-    ╚═════╝ ╚══════╝╚══════╝╚═╝     
-       \e[0m"                         
-
-
-
 center "*** needs binutils installation..."
 
 pkg install -y binutils python autoconf bison clang coreutils curl findutils apr apr-util postgresql openssl readline libffi libgmp libpcap libsqlite libgrpc libtool libxml2 libxslt ncurses make ncurses-utils ncurses git wget unzip zip tar termux-tools termux-elf-cleaner pkg-config git ruby -o Dpkg::Options::="--force-confnew"
@@ -122,24 +109,6 @@ git clone https://github.com/beefproject/beef --depth=1
 termux-open-url https://termux.xyz/how-to-install-beef-on-termux/
 
 echo
-
-clear
-echo -e "\e[32m
-    ██████╗ ███████╗███████╗███████╗
-    ██╔══██╗██╔════╝██╔════╝██╔════╝
-    ██████╔╝█████╗  █████╗  █████╗  
-    ██╔══██╗██╔══╝  ██╔══╝  ██╔══╝  
-    ██████╔╝███████╗███████╗██║     
-    ╚═════╝ ╚══════╝╚══════╝╚═╝     
-       \e[0m /e[93m
-       
-           ██╗███╗   ██╗███████╗████████╗ █████╗ ██╗     ██╗     
-           ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██║     ██║     
-           ███║██╔██╗ ██║███████╗   ██║   ███████║██║     ██║     
-           ███║██║╚██╗██║╚════██║   ██║   ██╔══██║██║     ██║     
-           ███║██║ ╚████║███████║   ██║   ██║  ██║███████╗███████╗
-            ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
-
 center "*** Installation..."
 
 
@@ -184,7 +153,7 @@ sed -i '442, 476 {s/^/#/};436, 438 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/lo
 echo
 
 clear
-echo -e "\e[92m
+echo -e '\e[92m
 SUMAN ©\e[34m
          ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
         ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝    
@@ -200,7 +169,7 @@ SUMAN ©\e[34m
     ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝  
     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝   
 ONLINE HACKING			  							  							  
-          \e[m"
+          \e[m'
 echo -e " \e[36mWebsite : \e[0m\e[92mwww.termux.xyz  \e[93m/  \e[92mwww.onlinehacking.org  "
 echo ""
 echo -e " \e[31mGitHub : \e[0m\e[93mhttps://github.com/OnlineHacKing  "
