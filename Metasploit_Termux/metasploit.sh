@@ -2,31 +2,30 @@
 clear
 echo -e "\e[32m
 
-
-     ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗      
-    ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝      
-    ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗        
-    ██║   ██║██║╚██╗██║██║     ██║██║╚██╗██║██╔══╝        
-    ╚██████╔╝██║ ╚████║███████╗██║██║ ╚████║███████╗      
-     ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝      \e[0m     
+    ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗      
+   ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝      
+   ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗        
+   ██║   ██║██║╚██╗██║██║     ██║██║╚██╗██║██╔══╝        
+   ╚██████╔╝██║ ╚████║███████╗██║██║ ╚████║███████╗      
+    ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝      \e[0m     
   \e[33m                                                     
-  ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗ 
-  ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝ 
-  ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗
-  ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║
-  ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝
-  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ \e[0m \e[91mV2.2 \e[0m
+ ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗ 
+ ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝ 
+ ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗
+ ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║
+ ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝
+ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝\e[0m\e[91mV2.2 \e[0m
                                                       
                                                                                           
 \e[95m  +-+-+-+-+-+-+-+-+-+-+ +-+-+ +-+-+-+-+-+-+ \e[0m  
   |M|e|t|a|s|p|l|o|i|t| |i|n| |T|e|r|m|u|x|
 \e[36m  +-+-+-+-+-+-+-+-+-+-+ +-+-+ +-+-+-+-+-+-+ \e[0m  
- \e[91m        +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ \e[0m 
-         |O|n|l|i|n|e| |H|a|c|k|i|n|g|
-   \e[34m      +-+-+-+-+-+-+ +-+-+-+-+-+-+-+  \e[0m
-               \e[92m             +-+-+-+-+-+   \e[0m 
-                            |S|U|M|A|N|
-\e[93m	                    +-+-+-+-+-+ \e[0m
+ \e[91m             +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ \e[0m 
+               |O|n|l|i|n|e| |H|a|c|k|i|n|g|
+   \e[34m           +-+-+-+-+-+-+ +-+-+-+-+-+-+-+  \e[0m
+               \e[92m                 +-+-+-+-+-+   \e[0m 
+                                |S|U|M|A|N|
+\e[93m	                              +-+-+-+-+-+ \e[0m
 
 
 \e[91m Website\e[0m   -  \e[96m www.termux.xyz \e[0m
@@ -39,9 +38,10 @@ center() {
   printf '%*.*s %s %*.*s\n' 0 "$(((termwidth-2-${#1})/2))" "$padding" "$1" 0 "$(((termwidth-1-${#1})/2))" "$padding"
 }
 
-
+echo ""
+echo ""
 echo -e "\e[92m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
-echo -e "\e[96m                              Loading..."
+echo -e "\e[96m                         Loading..."
 echo -e "\e[93m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
 
 source <(echo "c3Bpbm5lcj0oICd8JyAnLycgJy0nICdcJyApOwoKY291bnQoKXsKICBzcGluICYKICBwaWQ9JCEKICBmb3IgaSBpbiBgc2VxIDEgMTBgCiAgZG8KICAgIHNsZWVwIDE7CiAgZG9uZQoKICBraWxsICRwaWQgIAp9CgpzcGluKCl7CiAgd2hpbGUgWyAxIF0KICBkbyAKICAgIGZvciBpIGluICR7c3Bpbm5lcltAXX07IAogICAgZG8gCiAgICAgIGVjaG8gLW5lICJcciRpIjsKICAgICAgc2xlZXAgMC4yOwogICAgZG9uZTsKICBkb25lCn0KCmNvdW50" | base64 -d)
@@ -99,20 +99,21 @@ pkg install -y binutils python autoconf bison clang coreutils curl findutils apr
 
 python3 -m pip install --upgrade pip
 python3 -m pip install requests
-
-
+echo ""
+echo ""
 # if any weird warning occurs maybe its becoze of bigdecimal & pg_ext.so . try comment those lines if problem persist
-
+echo ""
 echo -e "\e[95m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
-echo -e "\e[93m                       Fix Ruby BigDecimal"
+echo -e "\e[93m                   Fix Ruby BigDecimal"
 echo -e "\e[96m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
- 
+echo ""
 sleep 3
 source <(curl -sL https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt)
-
-
+echo ""
+echo ""
+echo ""
 echo -e "\e[92m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
-echo -e "\e[96m                      Erasing Old Metasploit Folder"
+echo -e "\e[96m              Erasing Old Metasploit Folder"
 echo -e "\e[93m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
 echo ""
 sleep 3
@@ -121,7 +122,7 @@ echo ""
 echo ""
 echo ""
 echo -e "\e[91m ====================================================== \e[97m"
-echo -e "\e[92m                       Downloading Metasoloit..."
+echo -e "\e[92m               Downloading Metasoloit..."
 echo -e "\e[93m ====================================================== \e[97m"
 sleep 3
 echo ""
