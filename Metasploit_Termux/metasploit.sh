@@ -118,7 +118,7 @@ echo -e "\e[93m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
 echo ""
 sleep 3
 rm -rf $PREFIX/opt/metasploit-framework
-echo ""
+echo -e  "\e[1;32m Join Telegram Channel \e[1;33m @OnlineHacking  !\e[0m""
 echo ""
 echo ""
 echo -e "\e[91m ====================================================== \e[97m"
@@ -132,7 +132,7 @@ echo ""
 echo ""
 echo ""
 echo -e "\e[95m ====================================================== \e[97m"
-echo -e " \e[93m                         Installation..."
+echo -e " \e[93m                     Installation..."
 echo -e "\e[96m ====================================================== \e[97m"
 sleep 3
 echo ""
@@ -175,6 +175,12 @@ ln -s $PREFIX/opt/metasploit-framework/msfrpcd $PREFIX/bin/
 termux-elf-cleaner $PREFIX/lib/ruby/gems/*/gems/pg-*/lib/pg_ext.so
 echo ""
 echo ""
+echo ""
+echo -e "\e[95m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
+echo -e "\e[93m                     bundle install"
+echo -e "\e[96m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
+echo ""
+cd metasploit-framework
 bundle install
 echo ""
 echo ""
@@ -212,9 +218,7 @@ echo ""
 echo -e "\e[1m \e[36m[+] There  Metasploit Framwork Tool Ready \e[m \e[21"
 echo ""
 echo ""
-echo -e "\e[92m[+] Type This Command to Open Metasploit:\e[93m cd metasploit_framwork \e[m "
-echo ""
-echo -e "\e[92m[+] Type This Command to Run:\e[93m msfconsole \e[m "
+echo -e "\e[92m[+] Now Type This Command to Run:\e[93m ./msfconsole \e[m "
 echo ""
 termux-open-url https://telegram.me/TermuxHackTutorial
 echo ""
