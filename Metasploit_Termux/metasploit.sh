@@ -96,7 +96,7 @@ echo -e "\e[93m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
 echo ""
 sleep 3
 rm -rf $PREFIX/opt/metasploit-framework
-echo -e  "\e[1;32m Join Telegram Channel \e[1;33m @OnlineHacking  !\e[0m""
+echo -e  "\e[1;32m Join Telegram Channel \e[1;33m @OnlineHacking  !\e[0m"
 echo ""
 echo ""
 echo -e "\e[91m ====================================================== \e[97m"
