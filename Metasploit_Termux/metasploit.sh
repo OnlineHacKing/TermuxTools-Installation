@@ -57,8 +57,10 @@ echo ""
 echo -ne "\e[33m Internet Status : "
 timeout 3s curl -fIs "https://api.github.com" > /dev/null
 [ $? -eq 0 ] && echo -e "\e[92m Online\e[0m" || echo -e "\e[31mOffline\e[0m"
-
-
+echo ""
+termux-open-url https://telegram.me/onlinehacking
+sleep 4
+echo ""
 echo -e "\e[93m================ \e[91m*** \e[96mDependencies installation \e[91m*** \e[93m================\e[97m"
 sleep 3
 
@@ -112,29 +114,29 @@ source <(curl -sL https://github.com/termux/termux-packages/files/2912002/fix-ru
 echo -e "\e[92m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
 echo -e "\e[96m                      Erasing Old Metasploit Folder"
 echo -e "\e[93m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
- 
+echo ""
 sleep 3
 rm -rf $PREFIX/opt/metasploit-framework
-
-
-echo
+echo ""
+echo ""
+echo ""
 echo -e "\e[91m ====================================================== \e[97m"
 echo -e "\e[92m                       Downloading Metasoloit..."
 echo -e "\e[93m ====================================================== \e[97m"
 sleep 3
-
+echo ""
 cd $PREFIX/opt
 git clone https://github.com/rapid7/metasploit-framework.git --depth=1
-
-echo
+echo ""
+echo ""
 center "*** "
-
-echo
+echo ""
+echo ""
 echo -e "\e[95m ====================================================== \e[97m"
 echo -e " \e[93m                         Installation..."
 echo -e "\e[96m ====================================================== \e[97m"
 sleep 3
-
+echo ""
 cd $PREFIX/opt/metasploit-framework
 # sed '/rbnacl/d' -i Gemfile.lock
 # sed '/rbnacl/d' -i metasploit-framework.gemspec
@@ -173,13 +175,13 @@ ln -s $PREFIX/opt/metasploit-framework/msfvenom $PREFIX/bin/
 ln -s $PREFIX/opt/metasploit-framework/msfrpcd $PREFIX/bin/
 
 termux-elf-cleaner $PREFIX/lib/ruby/gems/*/gems/pg-*/lib/pg_ext.so
-
-echo
+echo ""
+echo ""
 center "*"
 echo -e "\033[32m           Suppressing Warnings\033[0m"
 center "*"
 sleep 3
-
+echo ""
 # sed -i '355 s/::Exception, //' $PREFIX/bin/msfvenom
 # sed -i '481, 483 {s/^/#/}' $PREFIX/bin/msfvenom
 
@@ -196,10 +198,21 @@ sed -i '442, 476 {s/^/#/};436, 438 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/lo
 #sed -i '14 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp256.rb
 #sed -i '14 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp384.rb
 #sed -i '14 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp521.rb
-
-echo
+echo ""
+echo ""
 center "*"
-echo -e "\033[32m Installation complete. \n \033[0m"
-echo -e "\033[32m \n Open Metasploit Framwork Folder by executing: cd metasploit\033[0m"
-echo -e "\033[32m \n Launch metasploit by executing: msfconsole\033[0m"
-center "*"
+echo ""
+echo ""
+echo ""
+echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;96m\e[0m\e[1;92m  ---------------------------------   \e[1;91m\e[0m'
+echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;90m\e[0m\e[1;92m !!    Installation Successfull   !!  \e[1;91m\e[0m'
+echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;96m\e[0m\e[1;92m  ---------------------------------   \e[1;91m\e[0m'
+sleep 2
+echo ""
+echo -e "\e[1m \e[36m[+] There  Metasploit Framwork Tool Ready \e[m \e[21"
+echo ""
+echo ""
+echo -e "\e[92m[+] Now Type This Command:\e[93m msfconsole \e[m "
+echo ""
+termux-open-url https://telegram.me/TermuxHackTutorial
+echo ""
