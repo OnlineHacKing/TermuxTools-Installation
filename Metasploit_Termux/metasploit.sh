@@ -47,9 +47,9 @@ center() {
 center " Loading..."
 source <(echo "c3Bpbm5lcj0oICd8JyAnLycgJy0nICdcJyApOwoKY291bnQoKXsKICBzcGluICYKICBwaWQ9JCEKICBmb3IgaSBpbiBgc2VxIDEgMTBgCiAgZG8KICAgIHNsZWVwIDE7CiAgZG9uZQoKICBraWxsICRwaWQgIAp9CgpzcGluKCl7CiAgd2hpbGUgWyAxIF0KICBkbyAKICAgIGZvciBpIGluICR7c3Bpbm5lcltAXX07IAogICAgZG8gCiAgICAgIGVjaG8gLW5lICJcciRpIjsKICAgICAgc2xlZXAgMC4yOwogICAgZG9uZTsKICBkb25lCn0KCmNvdW50" | base64 -d)
 
-echo -e \e[93m"
-================ \e[91m*** \e[96mDependencies installation \e[91m*** \e[93m================\e[97m"
+echo -e "\e[93m================ \e[91m*** \e[96mDependencies installation \e[91m*** \e[93m================\e[97m"
 sleep 3
+
 ## Remove not working repositories
 rm $PREFIX/etc/apt/sources.list.d/*
 
@@ -90,22 +90,39 @@ python3 -m pip install requests
 # if any weird warning occurs maybe its becoze of bigdecimal & pg_ext.so . try comment those lines if problem persist
 
 echo -e "\e[95m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
-echo -e "                        Fix ruby BigDecimal"
-echo -e "\e[95m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
+echo -e "\e[93m                       Fix Ruby BigDecimal"
+echo -e "\e[96m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
  
+sleep 3
 source <(curl -sL https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt)
 
-echo
-center "*** Erasing old metasploit folder..."
+
+echo -e "\e[92m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
+echo -e "\e[96m                      Erasing Old Metasploit Folder"
+echo -e "\e[93m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
+ 
+sleep 3
 rm -rf $PREFIX/opt/metasploit-framework
 
+
 echo
-center "*** Downloading..."
+echo -e "\e[91m ====================================================== \e[97m"
+echo -e "\e[92m                       Downloading Metasoloit..."
+echo -e "\e[93m ====================================================== \e[97m"
+sleep 3
+
 cd $PREFIX/opt
 git clone https://github.com/rapid7/metasploit-framework.git --depth=1
 
 echo
-center "*** Installation..."
+center "*** "
+
+echo
+echo -e "\e[95m ====================================================== \e[97m"
+echo -e " \e[93m                         Installation..."
+echo -e "\e[96m ====================================================== \e[97m"
+sleep 3
+
 cd $PREFIX/opt/metasploit-framework
 # sed '/rbnacl/d' -i Gemfile.lock
 # sed '/rbnacl/d' -i metasploit-framework.gemspec
@@ -147,7 +164,9 @@ termux-elf-cleaner $PREFIX/lib/ruby/gems/*/gems/pg-*/lib/pg_ext.so
 
 echo
 center "*"
-echo -e "\033[32m Suppressing Warnings\033[0m"
+echo -e "\033[32m           Suppressing Warnings\033[0m"
+center "*"
+sleep 3
 
 # sed -i '355 s/::Exception, //' $PREFIX/bin/msfvenom
 # sed -i '481, 483 {s/^/#/}' $PREFIX/bin/msfvenom
