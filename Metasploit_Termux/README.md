@@ -9,7 +9,7 @@
 ```bash
 pkg install wget
 
-wget https://raw.githubusercontent.com/OnlineHacKing/Metasploit_Termux/master/metasploit.sh
+wget https://raw.githubusercontent.com/OnlineHacKing/TermuxTools-Installation/main/Metasploit_Termux/metasploit.sh
 
 chmod +x metasploit.sh
 
