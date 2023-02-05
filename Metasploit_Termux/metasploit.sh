@@ -31,11 +31,7 @@ echo -e "\e[32m
 
 \e[91m Website\e[0m   -  \e[96m www.termux.xyz \e[0m
 \e[32m Telegram\e[0m  -  \e[95m https://t.me/OnlineHacking \e[0m
-\e[33m YouTube\e[0m   -  \e[94m https://youtube.com/@OnlineHacking \e[0m
-
-
-
-"
+\e[33m YouTube\e[0m   -  \e[94m https://youtube.com/@OnlineHacking \e[0m "
 
 center() {
   termwidth=$(stty size | cut -d" " -f2)
@@ -43,9 +39,25 @@ center() {
   printf '%*.*s %s %*.*s\n' 0 "$(((termwidth-2-${#1})/2))" "$padding" "$1" 0 "$(((termwidth-1-${#1})/2))" "$padding"
 }
 
-# Loading spinner
-center " Loading..."
+
+echo -e "\e[92m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
+echo -e "\e[96m                              Loading..."
+echo -e "\e[93m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
+
 source <(echo "c3Bpbm5lcj0oICd8JyAnLycgJy0nICdcJyApOwoKY291bnQoKXsKICBzcGluICYKICBwaWQ9JCEKICBmb3IgaSBpbiBgc2VxIDEgMTBgCiAgZG8KICAgIHNsZWVwIDE7CiAgZG9uZQoKICBraWxsICRwaWQgIAp9CgpzcGluKCl7CiAgd2hpbGUgWyAxIF0KICBkbyAKICAgIGZvciBpIGluICR7c3Bpbm5lcltAXX07IAogICAgZG8gCiAgICAgIGVjaG8gLW5lICJcciRpIjsKICAgICAgc2xlZXAgMC4yOwogICAgZG9uZTsKICBkb25lCn0KCmNvdW50" | base64 -d)
+
+
+echo ""
+echo ""
+printf "\e[100;330m[\e[10m **** ]\e[1;40m\e[10m OnlineHacking :\e[1;32m Join Telegram Channel \e[1;33m @OnlineHacking  !\e[0m"
+echo ""
+echo ""
+sleep 3
+echo ""
+echo -ne "\e[33m Internet Status : "
+timeout 3s curl -fIs "https://api.github.com" > /dev/null
+[ $? -eq 0 ] && echo -e "\e[92m Online\e[0m" || echo -e "\e[31mOffline\e[0m"
+
 
 echo -e "\e[93m================ \e[91m*** \e[96mDependencies installation \e[91m*** \e[93m================\e[97m"
 sleep 3
