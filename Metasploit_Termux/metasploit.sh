@@ -30,8 +30,8 @@ echo -e "\e[32m
 
 
 \e[91m Website\e[0m   -  \e[96m www.termux.xyz \e[0m
-\e[32m Telegram\e[0m  -  \e[95m https://telegram.me/OnlineHacking \e[0m
-\e[33m YouTube\e[0m   -  \e[94m https://youtube.com/onlinehacking2 \e[0m
+\e[32m Telegram\e[0m  -  \e[95m https://t.me/OnlineHacking \e[0m
+\e[33m YouTube\e[0m   -  \e[94m https://youtube.com/@OnlineHacking \e[0m
 
 
 
@@ -47,9 +47,9 @@ center() {
 center " Loading..."
 source <(echo "c3Bpbm5lcj0oICd8JyAnLycgJy0nICdcJyApOwoKY291bnQoKXsKICBzcGluICYKICBwaWQ9JCEKICBmb3IgaSBpbiBgc2VxIDEgMTBgCiAgZG8KICAgIHNsZWVwIDE7CiAgZG9uZQoKICBraWxsICRwaWQgIAp9CgpzcGluKCl7CiAgd2hpbGUgWyAxIF0KICBkbyAKICAgIGZvciBpIGluICR7c3Bpbm5lcltAXX07IAogICAgZG8gCiAgICAgIGVjaG8gLW5lICJcciRpIjsKICAgICAgc2xlZXAgMC4yOwogICAgZG9uZTsKICBkb25lCn0KCmNvdW50" | base64 -d)
 
-echo -e \e[33m"
-center "*** Dependencies installation...\e[97m"
-
+echo -e \e[93m"
+================ \e[91m*** \e[96mDependencies installation \e[91m*** \e[93m================\e[97m"
+sleep 3
 ## Remove not working repositories
 rm $PREFIX/etc/apt/sources.list.d/*
 
@@ -89,8 +89,10 @@ python3 -m pip install requests
 
 # if any weird warning occurs maybe its becoze of bigdecimal & pg_ext.so . try comment those lines if problem persist
 
-echo
-center "*** Fix ruby BigDecimal"
+echo -e "\e[95m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
+echo -e "                        Fix ruby BigDecimal"
+echo -e "\e[95m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \e[0m  "
+ 
 source <(curl -sL https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt)
 
 echo
