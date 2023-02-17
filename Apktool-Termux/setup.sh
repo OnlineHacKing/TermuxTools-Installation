@@ -18,7 +18,7 @@ echo  ""
 echo -e "\e[1;34m[*] \e[32mInstalling Packages....\e[0m";                                       
                                           
                                                                                                 
-apt update && apt upgrade -y
+apt update -y
 pkg install ruby python python2 -y
 pkg install toilet -y
 pkg install openjdk-17 -y
@@ -27,9 +27,8 @@ gem install lolcat
 pkg install wget curl -y
 chmod +x setup.sh
 chmod +x apktool.sh
-cd ~/Apktool-Termux/files
-chmod +x java.sh
+chmod +x files/java.sh
 
 echo -e "\e[1;34m[√] \e[96mNow run bash apktool.sh \e[0m"
 
-termux-open-url https://wwu.termux.xyz
+termux-open-url https://wwu.termux.xyz/install-and-use-apktool-in-termux-termux-apktool/
