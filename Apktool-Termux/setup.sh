@@ -30,5 +30,6 @@ chmod +x apktool.sh
 chmod +x files/java.sh
 echo -e ""
 echo -e "\e[1;34m[√] \e[96mNow run : \e[32m./apktool.sh \e[0m"
-
+echo -e " "
+echo -e " "
 termux-open-url https://wwu.termux.xyz/install-and-use-apktool-in-termux-termux-apktool/
