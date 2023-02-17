@@ -28,7 +28,7 @@ pkg install wget curl -y
 chmod +x setup.sh
 chmod +x apktool.sh
 chmod +x files/java.sh
-
-echo -e "\e[1;34m[√] \e[96mNow run bash apktool.sh \e[0m"
+echo -e ""
+echo -e "\e[1;34m[√] \e[96mNow run : \e[32m./apktool.sh \e[0m"
 
 termux-open-url https://wwu.termux.xyz/install-and-use-apktool-in-termux-termux-apktool/
