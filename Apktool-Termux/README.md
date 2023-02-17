@@ -7,6 +7,20 @@
 <a href="https://h4ck3r0.github.io/"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a>
 </p>
 
+
+<p align="center">
+<a href="https://github.com/OnlineHacKing"><img title="Github" src="https://img.shields.io/badge/OnlineHacKing-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://youtube.com/onlinehacking2"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Online Hacking-red?style=for-the-badge&logo=Youtube"></a>
+</p>
+<p align="center">
+<a href="https://github.com/OnlineHacKing"><img title="Language" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?v=103&style=flat-square"></a>
+<a href="https://github.com/OnlineHacKing"><img title="Followers" src="https://img.shields.io/github/followers/OnlineHacKing?color=blue&style=flat-square"></a>
+<a href="https://github.com/OnlineHacKing"><img title="Stars" src="https://img.shields.io/github/stars/OnlineHacKing/TermuxTools-Installation?color=red&style=flat-square"></a>
+<a href="https://github.com/OnlineHacKing"><img title="Forks" src="https://img.shields.io/github/forks/OnlineHacKing/TermuxTools-Installation?color=red&style=flat-square"></a>
+<a href="https://github.com/OnlineHacKing"><img title="Watching" src="https://img.shields.io/github/watchers/OnlineHacKing/TermuxTools-Installation?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/OnlineHacKing"><img title="Licence" src="https://img.shields.io/badge/License-GNU-blue.svg?style=flat-square"></a>
+</p>
+
 # Termux-Apktool
 
 The original file 
@@ -16,8 +30,8 @@ https://github.com/iBotPeaches/Apktool
 Install 
 
 ```bash
-git clone https://github.com/Lexiie/Termux-Apktool
-cd Termux-Apktool
+git clone https://github.com/OnlineHacKing/TermuxTools-Installation
+cd TermuxTools-Installation/Apktool-Termux
 dpkg -i apktool_2.3.4_all.deb
 ```
 
@@ -34,18 +48,6 @@ apktool b yourfolder/ --output out.apk
 ```
 
 
-<p align="center">
-<a href="https://github.com/h4ck3r0"><img title="Github" src="https://img.shields.io/badge/H4CK3R-RAJ-brightgreen?style=for-the-badge&logo=github"></a>
-<a href="https://youtu.be/VDeLnDxVziw"><img title="YouTube" src="https://img.shields.io/badge/YouTube-H4CK3R-red?style=for-the-badge&logo=Youtube"></a>
-</p>
-<p align="center">
-<a href="https://github.com/h4ck3r0"><img title="Language" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?v=103&style=flat-square"></a>
-<a href="https://github.com/h4ck3r0"><img title="Followers" src="https://img.shields.io/github/followers/h4ck3r0?color=blue&style=flat-square"></a>
-<a href="https://github.com/h4ck3r0"><img title="Stars" src="https://img.shields.io/github/stars/h4ck3r0/Apktool-termux?color=red&style=flat-square"></a>
-<a href="https://github.com/h4ck3r0"><img title="Forks" src="https://img.shields.io/github/forks/h4ck3r0/Apktool-termux?color=red&style=flat-square"></a>
-<a href="https://github.com/h4ck3r0"><img title="Watching" src="https://img.shields.io/github/watchers/h4ck3r0/Apktool-termux?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/h4ck3r0"><img title="Licence" src="https://img.shields.io/badge/License-GNU-blue.svg?style=flat-square"></a>
-</p>
 
 
 ### Apktool-termux
@@ -76,10 +78,8 @@ apktool b yourfolder/ --output out.apk
 
 * `apt-get update -y`
 * `apt-get upgrade -y`
-* `git clone https://github.com/h4ck3r0/Apktool-termux`
-* `cd $HOME`
-* `ls`
-* `cd Apktool-termux`
+* `git clone https://github.com/OnlineHacKing/TermuxTools-Installation`
+* `cd TermuxTools-Installation/Apktool-Termux`
 * `chmod +x *`
 * `bash setup.sh`
 * `bash apktool.sh`
@@ -87,15 +87,8 @@ apktool b yourfolder/ --output out.apk
 [+]-- Open new session in termux and Type apktool
 ```
 
-## [Read More](https://h4ck3r.me/how-to-install-apktool-in-termux-without-error/) 
-More Uses : https://h4ck3r.me/how-to-install-apktool-in-termux-without-error/
-## Credit
-
-* Script by H4Ck34 (Raj Aryan)
- 
-* apktool 
- 
-* Java (hax4us)
+## [Read More](https://termux.xyz/how-to-install-apktool-in-termux-without-error/) 
+More Uses : https://termux.xyz/how-to-install-apktool-in-termux-without-error/
  
 ## Error Solve
 
@@ -108,14 +101,6 @@ More Uses : https://h4ck3r.me/how-to-install-apktool-in-termux-without-error/
 
 • Then run apktool
 ```
-## CONNECT WITH US :
-<a href="https://www.buymeacoffee.com/h4ck3r" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-<a href="https://github.com/h4ck3r0"><img title="Github" src="https://img.shields.io/badge/H4Ck3R-Raj-brightgreen?style=for-the-badge&logo=github"></a>
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://rebrand.ly/loginx202266fb40)
-[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://h4ck3r.me)
-[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://rebrand.ly/termuxcoding3d8527)
-<a href="https://rebrand.ly/7elzgww"><img title="YouTube" src="https://img.shields.io/badge/YouTube-H4Ck3R-red?style=for-the-badge&logo=Youtube"></a>
 
 
 Sign use apksigner
