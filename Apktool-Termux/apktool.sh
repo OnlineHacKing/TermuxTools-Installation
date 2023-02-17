@@ -3,7 +3,7 @@ banner ( ) {
                   
                   toilet -F border -f mono12  "Apktool"  | lolcat
                   printf ""
-                  printf "\e[1;34m[*] \e[1;96mcreated by \e[1;33m Raj Aryan ( @h4ck3r_0 )\e[0m"
+                  printf "\e[1;34m[*] \e[1;96mCreated by \e[1;33m Termux XYZ ( https://termux.xyz )\e[0m"
                   }
                   
                   wr  ( )  {
@@ -20,17 +20,17 @@ chmod +r $PREFIX/bin/apktool.jar
 
 sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O $PREFIX/bin/apktool' && chmod +x $PREFIX/bin/apktool
                                                  
-                                                 cd ~/Apktool-termux ; bash apktool.sh
+                                                 cd ~/Apktool-Termux ; bash apktool.sh
                                                  
                                                  }
                                                  Java() {
                                                                cd files
                                                                bash java.sh
-                                                               cd ~/Apktool-termux ; bash apktool.sh
+                                                               cd ~/Apktool-Termux ; bash apktool.sh
                                                                }
                                                                
                                  selection () {
-                                            cd ~/Apktool-termux
+                                            cd ~/Apktool-Termux
                                             echo -e -n "\e[1;96m Apktool\e[1;96m Termux : \e[0m"
                                             read a
                                             case $a in
