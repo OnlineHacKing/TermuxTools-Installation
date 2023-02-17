@@ -17,6 +17,9 @@ export apktool_version=2.7.0
 sh -c 'wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_$apktool_version.jar -O $PREFIX/bin/apktool.jar'
 chmod +r $PREFIX/bin/apktool.jar
 sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O $PREFIX/bin/apktool' && chmod +x $PREFIX/bin/apktool
+printf " "
+printf "\033[1;91m Apktool Install Successful!!!\n"
+sleep 4
 bash apktool.sh
 }
                                                  
