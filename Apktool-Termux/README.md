@@ -1,16 +1,10 @@
 <p align="center">
-<a href="https://h4ck3r0.github.io/"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
+<a href="https://termux.xyz"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://h4ck3r0.github.io/"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Apktool-green.svg?style=flat-square"></a>
-<a href="https://h4ck3r0.github.io/"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
-<a href="https://h4ck3r0.github.io/"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a>
-</p>
-
-
-<p align="center">
-<a href="https://github.com/OnlineHacKing"><img title="Github" src="https://img.shields.io/badge/OnlineHacKing-brightgreen?style=for-the-badge&logo=github"></a>
-<a href="https://youtube.com/onlinehacking2"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Online Hacking-red?style=for-the-badge&logo=Youtube"></a>
+<a href="https://termux.xyz"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Apktool-green.svg?style=flat-square"></a>
+<a href="https://termux.xyz"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
+<a href="https://termux.xyz/"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a>
 </p>
 <p align="center">
 <a href="https://github.com/OnlineHacKing"><img title="Language" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?v=103&style=flat-square"></a>
@@ -53,7 +47,7 @@ apktool b yourfolder/ --output out.apk
 ### Apktool-termux
 
 
-* [-] Latest apktool 2.7.0 for Termux by H4Ck3R
+* [-] Latest apktool 2.7.0 for Termux 
 
 * [-] Version : 2.7.0
 
